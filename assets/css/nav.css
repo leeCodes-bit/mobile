@@ -1,11 +1,15 @@
 .logo {
   width: 250px;
 }
-.video{
+
+.video {
   width: 100% !important;
   object-fit: cover;
   display: inline block;
 }
+
+.contact form {}
+
 .contact input {
   margin-top: 20px;
   padding: 10px;
@@ -35,6 +39,7 @@ textarea {
   margin-top: 20px;
   padding: 10px;
   background: transparent;
+  /* margin-bottom: 200px;n */
 }
 
 section div a {
@@ -63,9 +68,18 @@ section div.icons a:first-child {
   margin-top: 30px;
   border-color: #84C225;
 }
+.contact{
+  height: 600px;
+}
 
 @media screen and (max-width: 769px) {
   .tool img {
+    margin-bottom: 40px;
+  }
+  .contact{
+    height: 720px;
+  }
+  .contact form {
     margin-bottom: 40px;
   }
   .contact input {
