@@ -2,10 +2,22 @@
   width: 250px;
 }
 
+.footer-logo {
+  width: 250px;
+}
+
+.social-icon i {
+  padding: 10px;
+}
+
+.social-icon i:hover {
+  color: #84C225;
+}
+
 @media screen and (max-width: 420px) {
-  .hero-home-2{
+  .hero-home-2 {
     height: 400px;
-  } 
+  }
   .logo {
     width: 150px;
   }
@@ -22,5 +34,11 @@
   }
   .page-footer-section h3 {
     font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 378px) {
+  .store {
+    margin-top: 10px;
   }
 }
