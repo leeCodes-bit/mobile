@@ -3,6 +3,9 @@
 }
 
 @media screen and (max-width: 420px) {
+  .hero-home-2{
+    height: 400px;
+  } 
   .logo {
     width: 150px;
   }
@@ -10,10 +13,11 @@
     font-size: 2.5rem;
     margin-top: -150px;
   }
-  h2{
+  h2 {
     font-size: 30px;
     padding: 0 5px;
-  } .page-footer-section {
+  }
+  .page-footer-section {
     padding-top: 50px;
   }
   .page-footer-section h3 {
