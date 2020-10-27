@@ -2,6 +2,46 @@
   width: 250px;
 }
 
+.contact input{
+  margin-top: 20px;
+  padding: 10px;
+  background: transparent;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: groove;
+  border-bottom-color: #84C225;
+}
+
+/* button {
+  margin-bottom: 20px;
+  background: transparent;
+  border-radius: 4px;
+  padding: 10px;
+  font-size: 20px;
+  margin-top: 20px;
+  color: white;
+  width: 29%;
+  font-weight: 500;
+} */
+
+
+textarea {
+  /* width: 27.5%; */
+  height: 150px;
+  margin-top: 20px;
+  padding: 10px;
+  background: transparent;
+}
+
+section div a {
+  margin: 10px;
+}
+
+section div.icons a:first-child {
+  color: rgb(7, 1, 4);
+}
+
 .footer-logo {
   width: 150px;
   margin-bottom: 10px;
