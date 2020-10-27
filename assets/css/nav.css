@@ -53,16 +53,24 @@ section div.icons a:first-child {
 .social-icon i:hover {
   color: #84C225;
 }
-.contact textarea{
-  width: 100px;
+
+.contact textarea {
+  width: 78%;
+  margin-top: 30px;
   border-color: #84C225;
 }
+
 @media screen and (max-width: 769px) {
   .tool img {
     margin-bottom: 40px;
   }
   .contact input {
     width: 100%;
+  }
+  .contact textarea {
+    width: 100%;
+    margin-top: 30px;
+    border-color: #84C225;
   }
 }
 
