@@ -11,15 +11,16 @@
   <!-- <meta name="copyright" content="MACode ID, https://www.macodeid.com/"> -->
 
   <title>Greenmouse Tecnologies</title>
+
   <!-- fontawesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
     integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
     crossorigin="anonymous" />
 
     <!-- google font -->
-    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Halant:wght@300&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Halant:wght@300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400&display=swap" rel="stylesheet">
   <link rel="shortcut icon" href="./assets/img/sp.jpg" type="image/x-icon">
 
   <link rel="stylesheet" href="./assets/css/maicons.css">
@@ -34,6 +35,17 @@
   <link rel="stylesheet" href="./assets/css/nav.css">
 </head>
 <body>
+<div id="my-modal" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-md" role="document">
+    <div class="modal-content">
+      <div class="modal-body">
+        <video class="video" controls>
+          <source src="./assets/video/VID-20191214-WA0008.mp4" type="video/mp4">
+        </video>
+      </div>
+    </div>
+  </div>
+</div>
 <!-- navbar -->
 <nav class="navbar navbar-expand-lg navbar-dark navbar-floating">
   <div class="container">
@@ -72,7 +84,7 @@
             <!-- <img src="./assets/img/iPhone 11 Pro Max.png" alt=""> -->
             <div class="image-container">
               <div class="video-wrapper">
-                <a class="popup-youtube" href="https://www.youtube.com/watch?v=fLCjQJCekTs" data-effect="fadeIn">
+                <a class="popup-youtube" href="javascript:void(0);" data-toggle="modal" data-target="#my-modal" data-effect="fadeIn">
                   <img class="img-fluid" src="./assets/img/2.png" alt="alternative">
                   <span class="video-play-button">
                     <span></span>
@@ -358,7 +370,7 @@
 
             <div class="form-group wow fadeInUp">
               <label for="message" class="fw-medium fg-grey"></label>
-              <textarea rows="" style="" id="message" placeholder="Message"></textarea>
+              <textarea rows="" id="message" placeholder="Message"></textarea>
             </div>
             <div class="form-group mt-4 wow fadeInUp">
               <button type="submit" class="btn btn-primary">Send Message</button>

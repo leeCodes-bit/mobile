@@ -1,7 +1,11 @@
 .logo {
   width: 250px;
 }
-
+.video{
+  width: 100% !important;
+  object-fit: cover;
+  display: inline block;
+}
 .contact input {
   margin-top: 20px;
   padding: 10px;
