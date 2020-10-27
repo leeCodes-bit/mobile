@@ -796,6 +796,7 @@ hr {
 }
 
 @media (min-width: 1200px) {
+
   .p-xl-6 {
     padding: 4rem !important;
   }
@@ -1927,7 +1928,7 @@ h2 {
 
 .page-footer-section {
   position: relative;
-  padding-top: 100px;
+  padding-top: 80px;
   padding-bottom: 20px;
   background-color: #F0EEF5;
 }

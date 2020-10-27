@@ -30,18 +30,58 @@
   <link rel="stylesheet" href="./assets/css/bootstrap.css">
 
   <link rel="stylesheet" href="./assets/css/mobster.css">
+  <link rel="stylesheet" href="./assets/css/nav.css">
 </head>
 <body>
 <!-- navbar -->
-<nav class="navbar navbar-expand-lg navbar-dark navbar-floating">
+<!-- <nav class="navbar navbar-expand-lg navbar-dark navbar-floating">
   <div class="container">
     <a class="navbar-brand" href="#">
-      <img src="./assets/img/logo.png" alt="" width="250">
-    
+      <img src="./assets/img/logo.png" alt="" width="250">  
     </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler"
+      aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
       <div class="ml-auto my-2 my-lg-0">
         <button class="btn btn-primary rounded-pill">Request a Quote</button>
       </div>
+  </div>
+</nav> -->
+<nav class="navbar navbar-expand-lg navbar-dark navbar-floating">
+  <div class="container">
+    <a class="navbar-brand" href="#">
+      <img src="./assets/img/logo.png" class="logo" alt="logo">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler"
+      aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarToggler">
+      <!-- <ul class="navbar-nav ml-lg-5 mt-3 mt-lg-0">
+        <li class="nav-item dropdown active">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" data-toggle="dropdown" aria-haspopup="true"
+            aria-expanded="false">Home</a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item active" href="index.html">Homepage 1</a>
+            <a class="dropdown-item" href="index-2.html">Homepage 2</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="updates.html">What's New</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+      </ul> -->
+      <div class="ml-auto my-2 my-lg-0">
+        <button class="btn btn-dark rounded-pill">Request a Quote</button>
+      </div>
+    </div>
   </div>
 </nav>
 
@@ -81,7 +121,7 @@
 </div>
 
 <!-- features -->
-<div class="page-section">
+<div class="page-section feature">
   <h2 class="text-center" style="margin-bottom: 30px; font-family: 'Halant', serif; color: #84C225; font-weight: bold;">
     Why Greenmouse Technologies is Different</h2>
   <div class="container">
@@ -275,7 +315,6 @@
   </div>
 </div> -->
 
-<hr>
 
 <!-- Testimonials -->
 <!-- <div class="page-section">
@@ -464,10 +503,10 @@
 </div>
 
 <!-- Clients -->
-<div class="page-section client" style="background-color: black;">
+<div class="page-section client" style="background-color: #E7FBEE;">
   <div class="container">
     <div class="text-center wow fadeIn">
-      <h2 class="mb-4" style="color: #E7FBEE; font-family: 'Halant', serif;">Our Clients</h2>
+      <h2 class="mb-4" style="color: #222; font-weight: bold; font-family: 'Halant', serif;">Our Clients</h2>
       <p>Become a <a href="#form">Client</a></p>
     </div>
     <div
@@ -497,40 +536,25 @@
           <img src="./assets/img/clients/net_sport_tv.png" alt="">
         </div>
       </div>
-      <div class="p-3 wow zoomIn">
-        <div class="img-place client-img">
-          <img src="./assets/img/clients/news_digital_tv.png" alt="">
-        </div>
-      </div>
-      <div class="p-3 wow zoomIn">
-        <div class="img-place client-img">
-          <img src="./assets/img/clients/spa_beauty.png" alt="">
-        </div>
-      </div>
-      <div class="p-3 wow zoomIn">
-        <div class="img-place client-img">
-          <img src="./assets/img/clients/trivier_group.png" alt="">
-        </div>
-      </div>
     </div>
   </div>
 </div>
 <!-- End clients -->
 
 <!-- contact -->
-<div class="page-section" id="form" style="background-image: url(./assets/img/bannerbg.jpg);">
+<div class="page-section" id="form" style="background: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.9)), url(./assets/img/1.png); height: 600px;">
   <div class="container">
     <div class="row">
-      <div class="col-lg-7 py-3 mb-5 mb-lg-0">
+      <!-- <div class="col-lg-7 py-3 mb-5 mb-lg-0">
         <div class="img-place w-lg-75 wow zoomIn">
           <img src="./assets/img/illustration_contact.svg" alt="">
         </div>
-      </div>
-      <div class="col-lg-5 py-3">
-        <h3 class="wow fadeInUp" style="color: #84C225; font-family: 'Halant', serif; font-weight: bold; background-position: fixed;">Need a help? <br>
+      </div> -->
+      <div class="col-lg-4 py-3 m-auto">
+        <h3 class="wow fadeInUp" style="color: #84C225; font-family: 'Halant', serif; font-weight: bold; background-position: fixed;">Need an App? <br>
           Don't worry just contact us</h3>
 
-        <form method="POST" class="mt-5">
+        <form class="mt-3">
           <div class="form-group wow fadeInUp">
             <label for="name" class="fw-medium fg-grey">Fullname</label>
             <input type="text" class="form-control" id="name">
@@ -543,7 +567,7 @@
 
           <div class="form-group wow fadeInUp">
             <label for="message" class="fw-medium fg-grey">Message</label>
-            <textarea rows="6" class="form-control" id="message"></textarea>
+            <textarea rows="" class="form-control" id="message"></textarea>
           </div>
 
           <div class="form-group mt-4 wow fadeInUp">
