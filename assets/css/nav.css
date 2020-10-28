@@ -76,8 +76,12 @@ section div.icons a:first-child {
 }
 
 @media screen and (max-width: 769px) {
-  .tool img {
+  .tool img{
     margin-bottom: 40px;
+    margin-top: -20px;
+  }
+  .case img {
+    margin-top: 60px;
   }
   .contact {
     height: 720px;
