@@ -8,8 +8,6 @@
   display: inline block;
 }
 
-.contact form {}
-
 .contact input {
   margin-top: 20px;
   padding: 10px;
@@ -19,6 +17,10 @@
   border-left-style: hidden;
   border-bottom-style: groove;
   border-bottom-color: #84C225;
+}
+
+.case {
+  margin-top: -200px !important;
 }
 
 /* button {
@@ -68,7 +70,8 @@ section div.icons a:first-child {
   margin-top: 30px;
   border-color: #84C225;
 }
-.contact{
+
+.contact {
   height: 600px;
 }
 
@@ -76,7 +79,7 @@ section div.icons a:first-child {
   .tool img {
     margin-bottom: 40px;
   }
-  .contact{
+  .contact {
     height: 720px;
   }
   .contact form {
@@ -89,6 +92,9 @@ section div.icons a:first-child {
     width: 100%;
     margin-top: 30px;
     border-color: #84C225;
+  }
+  .case {
+    margin-top: -100px !important;
   }
 }
 
@@ -124,5 +130,8 @@ section div.icons a:first-child {
 @media screen and (max-width: 378px) {
   .store {
     margin-top: 10px;
+  }
+  .tutor{
+    margin-top: 20px;
   }
 }
