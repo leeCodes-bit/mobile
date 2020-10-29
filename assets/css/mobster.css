@@ -1415,6 +1415,12 @@ h2 {
 
 .btn-dark {
   color: #84C225;
+  background-color: #E7FBEE;
+  border-color: transparent !important;
+}
+
+.apple, .store {
+  color: #84C225;
   background-color: #000;
   border-color: transparent !important;
   margin-left: 10px;

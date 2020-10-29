@@ -3,7 +3,11 @@ html {
 }
 
 .logo {
-  width: 250px;
+  width: 200px;
+}
+
+nav ul li {
+  font-size: .8em;
 }
 
 .video {
@@ -23,22 +27,22 @@ html {
   border-bottom-color: #84C225;
 }
 
+.clients img:nth-child(3) {
+  width: 50px;
+}
+.imgage{
+  width: 10px;
+}
 .case {
   margin-top: -100px !important;
 }
 
-/* button {
-  margin-bottom: 20px;
-  background: transparent;
-  border-radius: 4px;
-  padding: 10px;
-  font-size: 20px;
-  margin-top: 20px;
-  color: white;
-  width: 29%;
-  font-weight: 500;
-} */
-
+.left {
+  margin-top: 80px;
+}
+.feature{
+  margin-top: 50px;
+}
 textarea {
   /* width: 27.5%; */
   height: 150px;
@@ -84,9 +88,6 @@ section div.icons a:first-child {
     margin-bottom: 40px;
     margin-top: -20px;
   }
-  .case img {
-    margin-top: 60px;
-  }
   .contact {
     height: 720px;
   }
@@ -103,6 +104,10 @@ section div.icons a:first-child {
   }
   .case {
     margin-top: -100px !important;
+  }
+  .client-img {
+    width: 100px;
+    margin-top: 30px;
   }
 }
 
@@ -121,9 +126,10 @@ section div.icons a:first-child {
     font-size: 30px;
     padding: 0 5px;
   }
-  /* .client img {
-    width: 200px;
-  } */
+  .client-img {
+    width: 100px;
+    margin-top: 0px;
+  }
   .contact input {
     width: 100%;
   }
