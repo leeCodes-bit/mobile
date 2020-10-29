@@ -134,7 +134,7 @@ hr {
 }
 
 .bg-warning {
-  background-color: var(--warning) !important;
+  background-color: #84C225 !important;
 }
 
 .bg-info {
@@ -1414,9 +1414,12 @@ h2 {
 }
 
 .btn-dark {
-  color: #222;
-  background-color: #E7FBEE;
+  color: #84C225;
+  background-color: #000;
   border-color: transparent !important;
+  margin-left: 10px;
+  margin-top: -30px;
+  margin-bottom: 20px;
 }
 
 .btn-dark i {
@@ -1424,8 +1427,8 @@ h2 {
 }
 
 .btn-dark:hover {
-  color: #222;
-  background-color: #e4ecd7;
+  color: #84C225;
+  background-color: #222;
   box-shadow: 0 4px 12px rgba(56, 51, 64, 0.3);
 }
 

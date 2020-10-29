@@ -121,9 +121,9 @@ section div.icons a:first-child {
     font-size: 30px;
     padding: 0 5px;
   }
-  .client img {
+  /* .client img {
     width: 200px;
-  }
+  } */
   .contact input {
     width: 100%;
   }
